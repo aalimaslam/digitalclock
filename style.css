@@ -1,0 +1,19 @@
+*{
+    margin:0;padding:0;box-sizing: border-box;
+}
+.container{
+    height:100vh;width:100%;display:flex;align-items: center;
+    background:#aaa;
+    justify-content: center;
+}
+.content{
+    position: relative;
+    display:flex;align-items: center;
+}
+.hourContainer,.secondContainer,.minuteContainer{
+ margin:20px;   background-color: rgba(0, 0, 0, 0.4);
+    height:19vh;width:10vw;border-radius: 10px;font-size:2rem;text-align: center;
+}
+.hr,.min,.sec,.millisecs{
+    font-size: 4rem;font-family: consolas;font-weight: 700;line-height: 17vh;
+}
