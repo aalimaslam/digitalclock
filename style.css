@@ -17,3 +17,21 @@
 .hr,.min,.sec,.millisecs{
     font-size: 4rem;font-family: consolas;font-weight: 700;line-height: 17vh;
 }
+.container h1{
+    font-size: 3rem;
+}
+
+@media only screen and (max-width:1024px ){
+    .millisecs{
+        display:none;
+    }
+    .milliSecondContainer{
+        display:none;
+    }
+    .content{
+        flex-direction: column;
+    }
+    .hourContainer,.secondContainer,.minuteContainer{
+        width:49vh;
+    }
+}
