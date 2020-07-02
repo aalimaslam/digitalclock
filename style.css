@@ -10,7 +10,7 @@
     position: relative;
     display:flex;align-items: center;
 }
-.hourContainer,.secondContainer,.minuteContainer{
+.hourContainer,.secondContainer,.minuteContainer,.milliSecondContainer{
  margin:20px;   background-color: rgba(0, 0, 0, 0.4);
     height:19vh;width:10vw;border-radius: 10px;font-size:2rem;text-align: center;
 }
