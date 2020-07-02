@@ -5,6 +5,7 @@
     height:100%;width:100%;display:flex;align-items: center;
     background:#aaa;
     justify-content: center;
+    position:absolute;
 }
 .content{
     position: relative;
@@ -22,9 +23,6 @@
 }
 
 @media only screen and (max-width:1024px ){
-    .millisecs{
-        display:none;
-    }
     .milliSecondContainer{
         display:none;
     }
@@ -32,6 +30,6 @@
         flex-direction: column;
     }
     .hourContainer,.secondContainer,.minuteContainer{
-        width:49vh;
+        width:50vh;
     }
 }
